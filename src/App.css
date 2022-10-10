@@ -1,0 +1,149 @@
+body {
+  background-image: #DCCA;
+
+}
+
+.container__div {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  margin: 6rem 7rem;
+  width: fit-content;
+
+}
+
+.h1__header {
+  padding: 0 0.5rem;
+  position: relative;
+  top: 6rem;
+  color: #092E20;
+}
+
+.welcome__header {
+  background-color: #f8f6f0;
+
+}
+
+.input__holder {
+  margin: 2rem 13rem;
+  padding: 4.5rem 0;
+
+}
+
+.account__header {
+
+  padding-bottom: 3rem;
+}
+
+.input__button {
+  border-style: 2px solid;
+}
+
+.input__button,
+.signin__button {
+  width: 18rem;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+
+}
+
+.signin__button {
+  background-color: #000;
+  color: #fff;
+  margin-top: 1rem;
+
+}
+
+.signin__button:hover {
+  border-bottom: 1px;
+  box-shadow: #000;
+  transition: 0.5s ease;
+
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.header__img {
+  padding-top: 8rem;
+  padding-right: 1rem;
+}
+
+
+
+
+.header__img {
+  height: 300px;
+  width: 150px;
+  object-fit: cover;
+  margin: 5rem;
+
+}
+
+.bgs__img {
+  height: 150px;
+  width: 100px;
+  margin-left: 70rem;
+  margin-top: 5rem;
+  
+}
+
+.div {
+  height: 0.5rem;
+  width: 100%;
+  background-color: black;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 30% 20%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navigation {
+  position: fixed;
+  right: 45rem;
+  bottom: 0;
+}
+
+ 
+ 
+.list__item{
+  padding-right: 1rem;
+  
+}
+ .side__bar,
+ .starwar__ship,
+ .dash__board {
+   display: grid;
+   grid-template-columns: 15% 85%;
+   padding-left: 2rem;
+   background-color: #FAFAFA;
+   height: 100%;
+ }
+ 
+ @media screen and (max-width: 960px) {
+  .sec__one {
+  overflow-x: scroll;
+  display: inline-flex;
+  max-width: 100vw;
+  }
+
+   .grid__container{
+    overflow-x: scroll;
+    display: grid;
+     
+   }
+   .List__item{
+    display: grid;
+    position: absolute;
+    overflow-x: scroll;
+   }
+}
+
+  
