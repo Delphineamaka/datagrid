@@ -1,7 +1,6 @@
 
-	import { Avatar, Card, CardContent, CardHeader, Container, Paper, Stack, Typography } from '@mui/material'
+	import { Avatar, Card, CardContent   } from '@mui/material'
 	import React from 'react'
-	import Box from '@mui/material/Box';
 	import Grid from '@mui/material/Grid';
 	import video from '../Asset/video.png';
 	import ufo from '../Asset/ufo.png';

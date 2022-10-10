@@ -1,9 +1,9 @@
  import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Footer from './Component/Footer';
-import HomePg from './Component/HomePg';
-import NavHeader from './Component/NavHeader';
+import Footer from './ScreenOne/Footer';
+import HomePg from './ScreenOne/HomePg';
+import NavHeader from './ScreenOne/NavHeader';
 import VehicleDash from './ScreenFive/VehicleDash';
 import DashBoardThree from './ScreenFour/DashBoardThree';
 import SpeciesDash from './ScreenSix/SpeciesDash';

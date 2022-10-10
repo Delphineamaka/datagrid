@@ -1,5 +1,5 @@
 import React from 'react'
- import { ImageList, ImageListItem, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material'
+ import {  ImageListItem, ListItem, ListItemButton, ListItemText } from '@mui/material'
  import { Stack } from '@mui/material';
 import { Box } from '@mui/system'
 import { List } from 'reactstrap'
@@ -22,7 +22,7 @@ function Lists() {
      <Stack direction='row'>
         <ImageListItem  
           sx={{marginTop: 10, padding: 3 }}>
-            <img src={starwar} />
+            <img src={starwar} alt='' />
       </ImageListItem>
      
       
@@ -30,7 +30,7 @@ function Lists() {
       <ListItemButton     >
           <ListItem disablePadding >
          <ImageListItem>
-         <img className='list__item' src={dashboard} />
+         <img className='list__item' src={dashboard} alt='' />
        </ImageListItem>
        <nav>
         <Link to='/SideBar'> <ListItemText primary="Dashboard" /></Link>
@@ -42,7 +42,7 @@ function Lists() {
         <ListItem disablePadding>
        <ListItemButton>
        <ImageListItem>
-         <img className='list__item' src={building} />
+         <img className='list__item' src={building} alt='' />
        </ImageListItem>
        <nav>
         <Link Link to = '/Starwarship' >
@@ -55,7 +55,7 @@ function Lists() {
         <ListItem disablePadding>
        <ListItemButton>
        <ImageListItem>
-         <img className='list__item' src={shopping} />
+         <img className='list__item' src={shopping} alt='' />
        </ImageListItem>
        <nav>
        
@@ -69,7 +69,7 @@ function Lists() {
         <ListItem disablePadding>
        <ListItemButton>
         <ImageListItem>
-         <img className='list__item' src={taxi} />
+         <img className='list__item' src={taxi} alt=''/>
        </ImageListItem>
        <nav>
         <Link to='/VehicleDash'> <ListItemText primary="vehicles" /></Link>
@@ -80,7 +80,7 @@ function Lists() {
         <ListItem disablePadding>
        <ListItemButton>
         <ImageListItem>
-         <img className='list__item' src={menu} />
+         <img className='list__item' src={menu} alt='' />
        </ImageListItem>
        <nav>
        <Link   to = '/SpeciesDash' >

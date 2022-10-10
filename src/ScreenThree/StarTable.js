@@ -127,9 +127,7 @@ const rows = [
     class: "Starfighter",
      passengers: 200,
   },
-];
- 
-
+]; 
 export default function StarTable() {
    
   return (

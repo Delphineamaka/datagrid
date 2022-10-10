@@ -1,4 +1,3 @@
-import { Box } from '@mui/material'
 import React from 'react'
 import HeaderOne from './HeaderOne'
 import HeaderTwo from './HeaderTwo'
@@ -6,8 +5,7 @@ import StarTable from './StarTable'
 
 function Layout() {
   return (
-   
-   
+    
   <div   style={{paddingTop: 10, width: '100%',backgroundColor: 'FAFAFA'}}>
   <HeaderOne />
   <HeaderTwo />
@@ -16,8 +14,6 @@ function Layout() {
   </div>
   )
 }
-
-	
  
 
 export default Layout
